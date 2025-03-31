@@ -14,10 +14,10 @@ You can use the reference just like you'd use the original variable. When you ch
 
 ```cpp
 var = 20;            // Sets the value of var to 20
-std::cout << ref << '\n'; // Outputs 20
+std::cout << var << '\n'; // Outputs 20
 
 ref = 30;            // Sets the value of ref to 30
-std::cout << var << '\n'; // Outputs 30
+std::cout << ref << '\n'; // Outputs 30
 ```
 
 ## Function Parameters
